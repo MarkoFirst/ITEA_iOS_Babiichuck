@@ -13,8 +13,8 @@ class Human {
     let name: String = ""
     private var surname: String = ""
     
-    func birthday() {
-        age += 1
+    func birthday(age: UInt) {
+        self.age = age
     }
     
     open func meried(newSurname: String) {
